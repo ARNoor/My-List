@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/add_movie"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <TableRow
+            android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Name: "
+            android:textSize="20dp"
+
+            ></TextView>
+
+        <EditText
+            android:backgroundTint="#FF5722"
+            android:id="@+id/food_name_ID"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp">
+
+        </EditText>
+    </TableRow>
+        <TableRow
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant: "
+            android:textSize="20dp"
+
+            ></TextView>
+
+        <EditText
+            android:backgroundTint="#FF5722"
+            android:id="@+id/restaurant_ID"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp">
+
+        </EditText>
+    </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Located in: "
+                android:textSize="20dp"
+
+                ></TextView>
+
+            <EditText
+                android:backgroundTint="#FF5722"
+                android:id="@+id/located_ID"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp">
+
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggested by: "
+                android:textSize="20dp"
+                ></TextView>
+
+            <EditText
+                android:backgroundTint="#FF5722"
+                android:id="@+id/suggested_by_food_ID"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp">
+
+            </EditText>
+
+        </TableRow>
+
+       <TableRow
+           android:layout_marginTop="10dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Importance: "
+               android:textSize="20dp"
+               android:layout_gravity="center_vertical"
+               ></TextView>
+
+           <Spinner
+               android:id = "@+id/spinner3"
+               android:layout_width = "wrap_content"
+               android:layout_height = "wrap_content"
+
+               />
+       </TableRow>
+
+
+    </TableLayout>
+    <Button
+        android:id="@+id/add_food_B"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ADD"
+        android:background="#FF5722"
+        android:textColor="#FFFFFF">
+
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/add_movie"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <TableRow
+            android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Series Name: "
+            android:textSize="20dp"
+
+            ></TextView>
+
+            <EditText
+                android:backgroundTint="#9C27B0"
+                android:id="@+id/series_name_ID"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp">
+
+            </EditText>
+
+
+    </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Genre: "/>
+
+            <Spinner
+                android:id = "@+id/spinner_series"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:prompt = "@string/app_name"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggested by: "
+                android:textSize="20dp"
+                ></TextView>
+
+            <EditText
+                android:backgroundTint="#9C27B0"
+                android:id="@+id/suggested_by_series_ID"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp">
+
+            </EditText>
+
+        </TableRow>
+
+       <TableRow
+           android:layout_marginTop="10dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Importance: "
+               android:textSize="20dp"
+               android:layout_gravity="center_vertical"
+               ></TextView>
+
+           <Spinner
+               android:id = "@+id/spinner4"
+               android:layout_width = "wrap_content"
+               android:layout_height = "wrap_content"
+
+               />
+       </TableRow>
+
+
+    </TableLayout>
+
+<Button
+    android:id="@+id/add_series_B"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:text="Add"
+    android:textColor="#FFFFFF"
+    android:background="#9C27B0"
+    android:textSize="20dp">
+
+</Button>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mystack">
+
+    <application
+        android:theme="@style/AppTheme"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="My List"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity android:name=".Delete_series_activity"></activity>
+        <activity android:name=".Add_series_activity"></activity>
+        <activity android:name=".Delete_food_activity"></activity>
+        <activity android:name=".Add_foods_activity"></activity>
+        <activity android:name=".Delete_movie_activity"></activity>
+        <activity android:name=".Add_movie_activity" />
+        <activity android:name=".home_activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

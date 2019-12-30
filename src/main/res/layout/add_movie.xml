@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/add_movie"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <TableRow
+            android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie Name: "
+            android:textSize="20dp"
+
+            ></TextView>
+
+        <EditText
+            android:backgroundTint="#E91E63"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/movie_name">
+
+        </EditText>
+    </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Genre: "/>
+
+            <Spinner
+                android:id = "@+id/spinner"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggested by: "
+                android:textSize="20dp"
+                ></TextView>
+
+            <EditText
+                android:backgroundTint="#E91E63"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/suggestedBy">
+
+            </EditText>
+
+        </TableRow>
+
+       <TableRow
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="10dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Importance: "
+               android:textSize="20dp"
+               ></TextView>
+
+           <Spinner
+               android:id = "@+id/spinner2"
+               android:layout_width = "wrap_content"
+               android:layout_height = "wrap_content"
+               />
+       </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/add_movie_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#E91E63"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp">
+
+    </Button>
+
+</LinearLayout>

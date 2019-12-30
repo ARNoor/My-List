@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_movies"
+        android:icon="@drawable/ic_theaters_black_24dp"
+        android:title="Movies">
+
+    </item>
+    <item
+        android:id="@+id/nav_series"
+        android:icon="@drawable/ic_live_tv_black_24dp"
+        android:title="Series">
+
+    </item>
+    <item
+        android:id="@+id/nav_foods"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        android:title="Foods">
+
+    </item>
+    <item
+        android:id="@+id/nav_books"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:title="Books">
+
+    </item>
+    <item
+        android:id="@+id/nav_places"
+        android:icon="@drawable/ic_place_black_24dp"
+        android:title="Places">
+
+    </item>
+
+</menu>

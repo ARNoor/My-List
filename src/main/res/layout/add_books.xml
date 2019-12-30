@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/add_movie"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <TableRow
+            android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Name: "
+            android:textSize="20dp"
+
+            ></TextView>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp">
+
+        </EditText>
+    </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author Name: "
+                android:textSize="20dp"
+                ></TextView>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggested by: "
+                android:textSize="20dp"
+                ></TextView>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp">
+
+            </EditText>
+
+        </TableRow>
+
+       <TableRow
+           android:layout_marginTop="10dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Importance: "
+               android:textSize="20dp"
+               android:layout_gravity="center_vertical"
+               ></TextView>
+
+           <RatingBar
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/rb_movie"
+               android:backgroundTint="#020202">
+
+           </RatingBar>
+       </TableRow>
+
+
+    </TableLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:text="Add"
+    android:textColor="#FFFFFF"
+    android:background="#020202"
+    android:textSize="20dp">
+
+</Button>
+
+</LinearLayout>
